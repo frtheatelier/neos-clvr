@@ -218,3 +218,8 @@ p.navigation.actions {
 .media-index .media .listbox {
   width: 100%;
 }
+
+/* force hide the "frame" */
+#inner {
+  background: none !important;
+}

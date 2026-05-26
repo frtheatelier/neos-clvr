@@ -137,3 +137,13 @@
 :focus) {
   color: var(--txt-header-hgl);
 }
+
+/* Specifically for desktop */
+
+#inner {
+  background: url("https://frtheatelier.github.io/random-assets/patterns/green_diamond_transp.png"), 
+    url("https://frtheatelier.github.io/random-assets/patterns/green_diamond_transp.png");
+  background-position: left, right;
+  background-repeat: repeat-y;
+  background-size: 2%;
+}
