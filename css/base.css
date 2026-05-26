@@ -136,7 +136,7 @@ span.unread,
 span.replied,
 span.claimed,
 .actions span.defaulted {
-  font-family: Verdana, Helvetica, "Trebuchet MS", "Lucida Sans", Arial, sans-serif, "GNU Unifont";
+  font-family: "Candara", Verdana, Helvetica, "Trebuchet MS", "Lucida Sans", Arial, sans-serif, "GNU Unifont";
 }
 
 /* headings font family */
@@ -147,7 +147,7 @@ h4,
 h5,
 h6,
 .heading {
-  font-family: Verdana, Helvetica, "Trebuchet MS", "Lucida Sans", Arial, sans-serif, "GNU Unifont";
+  font-family: "CMU Serif", Verdana, Helvetica, "Trebuchet MS", "Lucida Sans", Arial, sans-serif, "GNU Unifont";
   overflow-wrap: anywhere;
   word-break: normal;
 }
@@ -340,7 +340,7 @@ col.name {
   font-weight: 700; /* make title bold */
   font-size: 1.15em;
   color: var(--txt-header); /* title/heading color */
-  content: "AO3";
+  content: "☘︎ AO3";
 }
 
 /* hovered and focused title */
@@ -2471,6 +2471,14 @@ div.preface {
   font-weight: 700; /* bold preface title */
 }
 
+.preface h2.title.heading:before {
+  content: "«";
+}
+
+.preface h2.title.heading:after {
+  content: "»";
+}
+
 .preface h3 {
   margin-bottom: 1em;
   border-bottom: 1.5px solid var(--border4);
@@ -2504,6 +2512,7 @@ li.comment:not(:has(.edit_comment)) {
     justify-content: flex-end;
   padding: 0.75em 0.75em 0.429em;
   border: var(--border-width) solid var(--border3);
+  border-width: var(--border-width-comment); /* custom borders for comments */
   border-radius: var(--radius-big);
   background-color: var(--bg5);
 }

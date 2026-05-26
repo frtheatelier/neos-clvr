@@ -1,0 +1,139 @@
+.site-skin-metadata {
+  content: "==================================================
+
+  - Skin:         neos/theme_torei
+  - Author:       ZerafinaCSS [https://tumblr.com/zerafinacss]
+  - Instructions: https://ao3.org/works/65849527
+  - Repository:   https://github.com/frtheatelier/neos-clvr
+  - License:      MIT
+  - Updated:      2026-Apr-19 11:03 UTC
+
+  ==========================================================";
+}
+
+:root {
+  color-scheme: light;
+  --margins-header: 1rem;
+  --margins-main: 5%;
+  --margins-narrow: 2.5%;
+  --radius-small: 4px;
+  --radius-mid: 4px;
+  --radius-big: 4px;
+  --radius-btn: 4px;
+  --radius-tag: 4px;
+  --icon-content-radius: 4px;
+  --icon-primary-radius: 4px;
+  --icon-index-radius: 4px;
+  --bg1: #F4F1E8;
+  --bg2: #2D3A1F;
+  --bg3: #E8E2D0;
+  --bg4: #E8E2D0;
+  --bg5: #F4F1E8;
+  --bg6: #CDD2C9;
+  --bg7: #F4F1E8;
+  --bg8: #E8E2D0;
+  --border1: #2D3A1F;
+  --border2: #E8E2D0;
+  --border3: #CDD2C9;
+  --border4: #CDD2C9;
+  --border-width: 1px;
+  --border-width-comment: 2px 2px 2px 10px;
+  --shadow: none;
+  --shadow-header: none;
+  --shadow-buttons: none;
+  --txt-size-main: 100%;
+  --txt-size-work: 110%;
+  --txt-header: #F4F1E8;
+  --txt-header-hgl: #F4F1E895;
+  --txt-header-hgl-h1: linear-gradient(125deg, #F4F1E8, #F4F1E895);
+  --txt-main: #2D3A1F;
+  --txt-alt1: #000000;
+  --txt-alt2: #F4F1E8;
+  --link: #2D3A1F;
+  --link-hgl: #647a4b;
+  --link-visited: #917f52;
+  --link-underline: 1px solid;
+  --int-btn-bg: #F4F1E8;
+  --int-btn-border: #647a4b;
+  --int-btn-txt: #2D3A1F;
+  --int-btn-hgl-bg: #E8E2D0;
+  --int-btn-hgl-txt: #2D3A1F;
+  --int-bg: #F4F1E8;
+  --int-current-bg: #2D3A1F;
+  --int-current-txt: #F4F1E8;
+  --int-disabled-bg: #D6D6D6;
+  --int-checked: #1636D9;
+  --int-hgl: #C2D4B4;
+  --int-hgl-bg: #B8A678;
+  --int-hgl-txt: #2D3A1F;
+  --icon1: #8BC101;
+  --icon2: #F5CE00;
+  --icon3: #0054D4;
+  --icon4: #EF851C;
+  --icon5: #910679;
+  --icon6: #B0021F;
+  --icon7: #2A2A2A;
+  --icon8: #B0021F;
+  --icon9: #107CB9;
+  --icon-grd: linear-gradient(135deg, #FFFFFF80, transparent);
+  --icon-bg: linear-gradient(135deg, #00000025, #FFFFFF 75%);
+  --icon-id: linear-gradient(135deg, #FFFFFF85, transparent) #900;
+  --icon-coll: linear-gradient(135deg, #FFFFFF85, transparent) #616C90;
+  --icon-anon: linear-gradient(135deg, #FFFFFF85, transparent) #8B8B8B;
+  --icon-border1: #00000025;
+  --icon-border2: #C1C1C1;
+  --tag-default-bg: #0000000D;
+  --tag-fandom-bg: #0000000D;
+  --tag-warning-bg: #B0021F35;
+  --tag-ship-bg: #D4507730;
+  --tag-platonic-bg: #6F50D430;
+  --tag-character-bg: #8BC10140;
+  --tag-freeform-bg: #0000000D;
+  --tag-default-txt: #000000;
+  --tag-fandom-txt: #000000;
+  --tag-warning-txt: #000000;
+  --tag-ship-txt: #000000;
+  --tag-platonic-txt: #000000;
+  --tag-character-txt: #000000;
+  --tag-freeform-txt: #000000;
+  --tag-border: #00000025;
+  --tag-hgl-bg: #900000;
+  --tag-hgl-txt: #FFFFFF;
+  --notice-bg: #D1E1EF;
+  --success-bg: #D1F0D1;
+  --caution-bg: #FFE34E;
+  --alert-bg: #EFD1D1;
+  --notice-txt: #00518F;
+  --success-txt: #008000;
+  --caution-txt: #8F7700;
+  --alert-txt: #900000;
+  --header-icon: invert(100%);
+  --header-icon-hgl: invert(100%) opacity(60%);
+  --kudos-icon: invert(18%) sepia(86%) saturate(2463%) hue-rotate(345deg) brightness(88%) contrast(95%);
+  --lock-icon: invert(12%) sepia(100%) saturate(4991%) hue-rotate(244deg) brightness(71%) contrast(144%);
+  --stats-icon: invert(65%);
+  --stat-chart: none;
+  --rich-txt-editor: none;
+}
+
+#header h2 {
+  color: var(--txt-header);
+}
+
+#footer {
+  background: var(--bg2);
+}
+
+#footer,
+#footer .heading,
+#footer a,
+#footer button {
+  color: var(--txt-header);
+}
+
+#footer a:is(:hover,
+:focus),
+#footer button:is(:hover,
+:focus) {
+  color: var(--txt-header-hgl);
+}

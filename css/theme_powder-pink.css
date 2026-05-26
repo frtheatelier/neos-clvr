@@ -69,6 +69,7 @@ Color palettes used for main backgrounds, borders, text and interaction elements
 
   /* width */
   --border-width:        1px;                      /* for almost all borders (experimental - changing this might cause some weirdness) */
+  --border-width-comment: 2px 2px 2px 10px;
 
 
 /*>========== SHADOWS ==========<*/
